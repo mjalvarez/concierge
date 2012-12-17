@@ -148,6 +148,9 @@ GEM
     rake (10.0.3)
     rdoc (3.12)
       json (~> 1.4)
+    recommendify (0.3.8)
+      redis (>= 2.2.2)
+    redis (3.0.2)
     rolify (3.2.0)
     rspec-core (2.12.2)
     rspec-expectations (2.12.1)
@@ -229,6 +232,7 @@ DEPENDENCIES
   launchy (>= 2.1.2)
   quiet_assets (>= 1.0.1)
   rails (= 3.2.8)
+  recommendify
   rolify (>= 3.2.0)
   rspec-rails (>= 2.11.4)
   ruby_parser (>= 3.1.0)
